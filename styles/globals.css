@@ -1,0 +1,14 @@
+/* Import Google Font AFTER Tailwind directives */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Comic Neue', cursive;
+  margin: 0;
+  padding: 0;
+}
