@@ -145,7 +145,6 @@ export default function ChatPage() {
       if (!newId) return;
       currentChatId = newId;
     }
-    debugger;
     const userMessage = { role: "user", text: input };
     const updatedMessages = [...messages, userMessage];
     setMessages(updatedMessages);
