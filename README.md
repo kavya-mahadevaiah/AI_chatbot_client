@@ -1,39 +1,35 @@
 
----
+# AI Chatbot - Frontend
 
-# 📄 `chatbot-backend/README.md`
-
-```markdown
-# AI Chatbot - Backend
-
-This is the backend for the AI Chatbot.  
-It handles authentication, chat management, and AI replies via OpenRouter.
+This is the frontend for the AI Chatbot.  
+It provides the user interface for chatting with the AI, managing sessions, and handling login/register.
 
 ## Features
-- User registration and login with JWT
-- Protected routes with middleware
-- Create, fetch, and delete chat sessions
-- AI replies integrated with OpenRouter
-- MongoDB persistence for users and chats
-- Secure password hashing with bcrypt
+- User authentication (login/register with JWT)
+- Create, delete, and manage multiple chat sessions
+- Send messages and receive AI responses
+- Dark theme UI
+- Chat history saved per session
+- Notifications for errors and feedback
 
 ## Tech Stack
-- Node.js + Express
-- MongoDB + Mongoose
-- JWT (authentication)
-- Bcrypt (password hashing)
-- Axios (API calls)
+- Next.js (React framework)
+- Tailwind CSS (styling)
+- Axios (API requests)
+- React Toastify (notifications)
 
 ## Setup
 1. Install dependencies:
-   ```bash
    npm install
+
 2. Add a .env.local file:
-NEXT_PUBLIC_API_URL=http://localhost:5000
-3. Run locally:
-npm run dev
-4. Build:
-npm run build
-npm start
+   NEXT_PUBLIC_API_URL=http://localhost:5000
+
+4. Run locally:
+   npm run dev
+
+5. Build:
+   npm run build
+   npm start
 
 
