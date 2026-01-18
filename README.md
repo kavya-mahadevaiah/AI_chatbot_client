@@ -3,9 +3,9 @@
 A modern AI chatbot UI built with **Next.js/React** that supports **multiple chat sessions**, smooth UX states, and secure auth flows.
 
 ## Demo
-- Live: <ADD_YOUR_VERCEL_URL>
-- Backend API: <ADD_YOUR_RENDER_URL>
-- Server repo: <LINK_TO_AI_CHATBOT_SERVER>
+- Live: <https://ai-chatbot-client-omega.vercel.app/>
+- Backend API: <https://crime-prediction-model-backend.onrender.comL>
+- Server repo: <https://github.com/kavya-mahadevaiah/AI_chatbot_server.git>
 
 ## Features
 - Multi-chat sessions (create/switch/delete)
