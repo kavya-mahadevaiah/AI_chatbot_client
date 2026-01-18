@@ -19,19 +19,6 @@ A modern AI chatbot UI built with **Next.js/React** that supports **multiple cha
 - Tailwind CSS
 - Axios
 
-## Getting Started (Local)
-```bash
-# 1) Install
-npm install
-
-# 2) Setup env
-cp .env.example .env.local
-
-# 3) Run
-npm run dev
-
-
-...
 
 ## Environment Variables
 - Create .env.local:
@@ -48,3 +35,15 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:5000
 - Streaming responses (token-by-token)
 - Chat search + message export
 - Better error analytics + retries
+
+## Getting Started (Local)
+```bash
+# 1) Install
+npm install
+
+# 2) Setup env
+cp .env.example .env.local
+
+# 3) Run
+npm run dev
+
