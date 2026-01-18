@@ -1,4 +1,9 @@
 # AI Chatbot — Client (Next.js)
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-black?logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-black?logo=tailwindcss&logoColor=38BDF8)
+![CI](https://github.com/kavya-mahadevaiah/AI_chatbot_client/actions/workflows/ci.yml/badge.svg)
+
 
 A modern AI chatbot UI built with **Next.js/React** that supports **multiple chat sessions**, smooth UX states, and secure auth flows.
 
