@@ -1,35 +1,48 @@
+# AI Chatbot — Client (Next.js)
 
-# AI Chatbot - Frontend
+A modern AI chatbot UI built with **Next.js/React** that supports **multiple chat sessions**, smooth UX states, and secure auth flows.
 
-This is the frontend for the AI Chatbot.  
-It provides the user interface for chatting with the AI, managing sessions, and handling login/register.
+## Demo
+- Live: <ADD_YOUR_VERCEL_URL>
+- Backend API: <ADD_YOUR_RENDER_URL>
+- Server repo: <LINK_TO_AI_CHATBOT_SERVER>
 
 ## Features
-- User authentication (login/register with JWT)
-- Create, delete, and manage multiple chat sessions
-- Send messages and receive AI responses
-- Dark theme UI
-- Chat history saved per session
-- Notifications for errors and feedback
+- Multi-chat sessions (create/switch/delete)
+- Auth-ready UI (JWT-based flow)
+- Clean chat UX: loading, error, empty states
+- Responsive layout + polished styling (Tailwind)
+- Message history rendering and session navigation
 
 ## Tech Stack
-- Next.js (React framework)
-- Tailwind CSS (styling)
-- Axios (API requests)
-- React Toastify (notifications)
+- Next.js, React
+- Tailwind CSS
+- Axios
 
-## Setup
-1. Install dependencies:
-   npm install
+## Getting Started (Local)
+```bash
+# 1) Install
+npm install
 
-2. Add a .env.local file:
-   NEXT_PUBLIC_API_URL=http://localhost:5000
+# 2) Setup env
+cp .env.example .env.local
 
-4. Run locally:
-   npm run dev
-
-5. Build:
-   npm run build
-   npm start
+# 3) Run
+npm run dev
 
 
+## Environment Variables
+- Create .env.local:
+NEXT_PUBLIC_API_BASE_URL=http://localhost:5000
+
+## Notes
+
+- This repo is the frontend UI.
+- The backend handles OpenRouter calls + message persistence:
+  - <LINK_TO_AI_CHATBOT_SERVER>
+
+## Roadmap
+
+- Streaming responses (token-by-token)
+- Chat search + message export
+- Better error analytics + retries
