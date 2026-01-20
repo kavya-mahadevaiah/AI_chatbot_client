@@ -171,7 +171,7 @@ export default function ChatPage() {
       const res = await api.post("/api/chat", { chatId: id, message: text });
       const botReply = res?.data?.reply || "No reply.";
       setMessages((prev) => [...prev, { role: "bot", text: botReply }]);
-    } catch (e) {
+    } catch () {
       setMessages((prev) => [
         ...prev,
         { role: "bot", text: "Something went wrong. Please try again." },
