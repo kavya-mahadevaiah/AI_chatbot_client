@@ -51,7 +51,7 @@ export default function Register() {
               required
             />
 
-            {/* FIX: bind to `password` state, not `repassword` */}
+           
             <input
               type="password"
               placeholder="Password"
